@@ -61,6 +61,9 @@ Flyway will automatically run migrations on startup:
 - `V4`: Seeds sample projects and tasks
 - `V5`: Adds project and task approval statuses and indexes
 
+For a fresh PostgreSQL database without running the application first, use the
+consolidated [`DATABASE_MIGRATION.sql`](./DATABASE_MIGRATION.sql) script.
+
 ### 3. Frontend
 
 ```bash
