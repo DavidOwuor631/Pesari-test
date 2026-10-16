@@ -1,0 +1,8 @@
+#!/bin/sh
+# Maven Wrapper Script
+if [ -n "$JAVA_HOME" ]; then
+  javaExecutable="$JAVA_HOME/bin/java"
+else
+  javaExecutable="`\which java`"
+fi
+exec "$javaExecutable" -classpath "$0" -jar .mvn/wrapper/maven-wrapper.jar "$@"

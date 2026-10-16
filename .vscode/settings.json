@@ -1,0 +1,10 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+     "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "/home/davidowuor/.local/opt/java-17-runtime/usr/lib/jvm/java-17-openjdk-amd64",
+            "default": true
+        }
+    ]
+}
